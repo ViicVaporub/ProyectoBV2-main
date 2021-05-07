@@ -7,3 +7,12 @@ p{
 h5{
     padding-left: 10px;
 }
+table{
+    opacity: 0.9;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+    border-radius: 9px;
+}
+table tr td{
+    
+
+}
