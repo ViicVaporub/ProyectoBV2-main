@@ -1,0 +1,10 @@
+<div class="row animated fadeIn fast" *ngIf="index === -1; else siheroe">
+    <div class="col">
+        <div class="alert alert-info" role="alert">
+            No existen resultados con el heroe {{nombre}}
+        </div>
+    </div>
+</div>
+<ng-template #siheroe>
+    <app-heroe [heroe]="heroe"></app-heroe>
+</ng-template>
