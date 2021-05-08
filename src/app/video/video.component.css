@@ -4,3 +4,23 @@
         box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
         border-radius: 9px;
     }
+
+table{
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+table tr th{
+    padding-left: 5rem;
+}
+img{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+     border-radius: 9px;
+
+}
+table tr th a img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
