@@ -4,3 +4,15 @@
 .opacidad{
     opacity: 0.75;
 }
+.card img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.card{
+    background-color: #44475383;
+    color: white;
+}
+.card .card-body .card-text small{
+    color: white;
+}
